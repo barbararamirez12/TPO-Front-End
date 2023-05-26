@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon"  href="img/gato-chino-de-la-suerte-chiquito.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="contacto.html">
+    <title>Bishoku Cocina Japonesa</title>
+</head>
+
+  
+
+<body class="conteiner4">
+
+
+    <header class="header4">
+        <nav>
+           <a href="index.html">Home</a>
+           <a href="nosotros.html">Nosotros</a>
+           <a href="promociones.html">Promociones</a>
+           <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+
+    <main class="main4">
+        
+        <h1 class="h1">CONSULTAS</h1>
+        <p class="p">¿Necesitas ayuda? Escribinos un mensaje para comunicarnos con
+                     vos y respoder tus dudas. Podés tener información de un 
+                     presupuesto estimativo y sobre nuestras promos enviando el
+                     siguente formulario.
+        </p>
+
+    </main>
+    
+
+    <div class="form">
+         <form action="https://formspree.io/f/xjvddejo"   method="POST">
+            <fieldset>
+                <div>
+                    <label for="name">Nombre</label>
+                    <input size="31" type="text"  id="name" name="name"
+                    placeholder="Ingrese su nombre">
+                </div>
+
+                <div>
+                    <label for="mail">Correo</label>
+                    <input type="email"   id="mail"  name="mail"
+                     placeholder="Ingrese su email">
+                </div>
+
+                <div>
+                    <label for="telefono">Teléfono</label>
+                    <input type="text"   id="telefono"
+                    placeholder="Ingrese su telefono">
+                </div>
+            </fieldset>
+
+                <div>
+            <fieldset>      
+                    <p>Cantidad de personas:</p>
+                    <input type="radio"     name="opcion"   value="1">Hasta 15 invitados
+                    <input type="radio"     name="opcion"   value="2">Hasta 50 invitados
+                    <input type="radio"     name="opcion"   value="3">Hasta 100 invitados
+                    <input type="radio"     name="opcion"   value="4">Mas de 100 invitados
+            </fieldset>  
+                </div>
+
+                <div>
+            <fieldset>         
+                    <p>Tipo de evento:</p> 
+                    <input type="checkbox"   name="opcion"  value="1">Cumpleaños
+                    <input type="checkbox"   name="opcion"  value="2">Casamientos
+                    <input type="checkbox"   name="opcion"  value="3">Eventos empresariales
+                    <input type="checkbox"   name="opcion"  value="4">Otros
+            </fieldset>   
+                </div>
+
+                 <div>
+             <fieldset>
+                    <label for="comentario">Comentario:</label>
+                    <textarea name="comentario"  id="comentario"  cols="31"  rows="11" 
+                      maxlength="211"></textarea>
+            </fieldset>
+                </div>
+
+            <button type="submit"   id="submit">Enviar</button>
+            <button type="reset"   id="reset">Borrar</button>
+
+        </form>
+
+    </div>
+
+   
+
+    <footer class="footer4">
+        <img class="redes" src="img/whatsapp.png"   alt="" >
+        <img class="redes" src="img/instagram.png"   alt="" >
+        <img class="redes" src="img/facebook.png"   alt="" >
+        <p class="derechos">Derechos reservados 2023</p>
+        
+    </footer>
+
+
+    <script src="js/validformulario.js"></script>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
