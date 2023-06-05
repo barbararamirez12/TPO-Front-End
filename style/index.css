@@ -360,6 +360,7 @@ to {background-color:   #FF0303;}
   "header4  header4  header4"
   "main4 main4 main4"
   "form form form"
+  "api api api"
   "footer4  footer4  footer4";
 }
 
@@ -397,6 +398,14 @@ to {background-color:   #FF0303;}
   padding: 1%;
 }
 
+.conteiner4 .api
+{
+  grid-area: api;
+  font-size: 1vw;
+  font-family: sans-serif;
+  color:#4E6E81;
+  padding: 1%;
+}
 
 .conteiner4 .footer4
 {
